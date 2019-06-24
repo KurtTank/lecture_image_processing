@@ -1,6 +1,6 @@
 # 課題6レポート
 
-ORG=imread('Lenna.png'); % 原画像の入力
+ORG=imread('Focke-Wulf-Fw190.jpg'); % 原画像の入力
 ORG = rgb2gray(ORG);
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 pause; % 一時停止
