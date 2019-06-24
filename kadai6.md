@@ -5,7 +5,7 @@ ORG = rgb2gray(ORG);
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 pause; % 一時停止
 
-![原画像]https://github.com/KurtTank/lecture_image_processing/blob/master/image/6gray.jpg
+https://github.com/KurtTank/lecture_image_processing/blob/master/image/6gray.jpg
 
 IMG = ORG>128; % 128による二値化
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
